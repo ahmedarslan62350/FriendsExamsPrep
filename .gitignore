@@ -1,0 +1,140 @@
+# =========================
+# ROOT
+# =========================
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+dist/
+build/
+coverage/
+.out/
+.next/
+turbo/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary
+tmp/
+temp/
+
+# =========================
+# FRONTEND
+# =========================
+
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+frontend/coverage/
+frontend/.turbo/
+frontend/.cache/
+frontend/.eslintcache
+frontend/*.tsbuildinfo
+
+# Frontend envs
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# =========================
+# BACKEND
+# =========================
+
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/coverage/
+backend/.turbo/
+backend/.cache/
+backend/.eslintcache
+backend/*.tsbuildinfo
+
+# Backend envs
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+
+# Prisma
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
+backend/prisma/migrations/
+
+# Uploads
+backend/uploads/
+backend/tmp/
+
+# =========================
+# DOCKER
+# =========================
+
+docker-data/
+*.tar
+*.gz
+
+# =========================
+# PM2
+# =========================
+
+.pm2/
+
+# =========================
+# Misc
+# =========================
+
+*.local
+.vercel
+.netlify
+
+# =========================
+# Optional lockfiles
+# Uncomment if needed
+# =========================
+
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
